@@ -1,4 +1,8 @@
 {
     "item.kirecmod.titanium_ingot": "Titanium Ingot",
-    "item.kirecmod.titanium_raw": "Titanium Raw"
+    "item.kirecmod.titanium_raw": "Titanium Raw",
+
+    "block.kirecmod.titanium_block": "Titanium Bock",
+
+    "itemGroup.kirecmod_tab": "kirec Mod"
 }
