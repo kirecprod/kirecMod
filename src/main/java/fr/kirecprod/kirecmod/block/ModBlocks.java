@@ -19,13 +19,19 @@ public class ModBlocks
 {
     public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, kirecMod.MOD_ID);
 
-    public static final RegistryObject<Block> TITANIUM_BLOCK = createBlock("titanium_block", () -> new Block(BlockBehaviour.Properties.of(Material.METAL)));
+    //BLOCKS
+    public static final RegistryObject<Block> TITANIUM_BLOCK = registerBlock("titanium_block", () -> new Block(BlockBehaviour.Properties.of(Material.METAL).strength(12f)));
 
-    public static RegistryObject<Block> createBlock(String name, Supplier<? extends Block> block)
+    private static <T extends Block>RegistryObject<T> registerBlock(String name, Supplier<T> block)
     {
-        RegistryObject<Block> b = BLOCKS.register(name, block);
-        ModItems.ITEMS.register(name, () -> new BlockItem(b.get(), new Item.Properties().tab(KirecModTab.KIRECMOD_TAB)));
-        return b;
+        RegistryObject<T> toreturn = BLOCKS.register(name, block);
+        registerBlockItem(name, toreturn);
+        return toreturn;
+    }
+
+    private static <T extends Block> void registerBlockItem(String name, RegistryObject<T> block)
+    {
+        ModItems.ITEMS.register(name, () -> new BlockItem(block.get(), new Item.Properties().tab(KirecModTab.KIRECMOD_TAB)));
     }
 
     public static void register(IEventBus eventBus){ BLOCKS.register(eventBus); }
