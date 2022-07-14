@@ -1,4 +1,11 @@
 {
     "item.kirecmod.titanium_ingot": "Lingot de Titane",
-    "item.kirecmod.titanium_raw": "Titanium Brut"
+    "item.kirecmod.titanium_raw": "Titane Brut",
+    "item.kirecmod.endemonium_ingot": "Lingot d'Endemonite",
+    "item.kirecprod.endemonium_nugget": "Pépide d'Endémonite",
+
+    "block.kirecmod.titanium_block": "Bloc de Titane",
+
+    "itemGroup.kirecmod_tab": "Kirec Mod"
+
 }

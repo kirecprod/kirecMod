@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "kirecmod:titanium_ingot"
+      "item": "kirecmod:endemonium_nugget"
     }
   },
   "result": {
-    "item": "kirecmod:titanium_block"
+    "item": "kirecmod:endemonium_ingot"
   }
 }
