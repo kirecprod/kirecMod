@@ -21,6 +21,8 @@ public class ModBlocks
 
     //BLOCKS
     public static final RegistryObject<Block> TITANIUM_BLOCK = registerBlock("titanium_block", () -> new Block(BlockBehaviour.Properties.of(Material.METAL).strength(12f)));
+    public static final RegistryObject<Block> ENDEMONIUM_BLOCK = registerBlock("endemonium_block",()-> new Block(BlockBehaviour.Properties.of(Material.METAL).strength(15f)));
+
 
     private static <T extends Block>RegistryObject<T> registerBlock(String name, Supplier<T> block)
     {

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "kirecmod:titanium_block"
+    }
+  ],
+  "result": {
+    "item": "kirecmod:titanium_ingot",
+    "count": 9
+  }
+}
