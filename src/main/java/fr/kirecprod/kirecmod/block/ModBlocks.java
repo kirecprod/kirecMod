@@ -20,8 +20,8 @@ public class ModBlocks
     public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, kirecMod.MOD_ID);
 
     //BLOCKS
-    public static final RegistryObject<Block> TITANIUM_BLOCK = registerBlock("titanium_block", () -> new Block(BlockBehaviour.Properties.of(Material.METAL).strength(6f)));
-    public static final RegistryObject<Block> ENDEMONIUM_BLOCK = registerBlock("endemonium_block",()-> new Block(BlockBehaviour.Properties.of(Material.METAL).strength(8f)));
+    public static final RegistryObject<Block> TITANIUM_BLOCK = registerBlock("titanium_block", () -> new Block(BlockBehaviour.Properties.of(Material.METAL).strength(4.5f)));
+    public static final RegistryObject<Block> ENDEMONIUM_BLOCK = registerBlock("endemonium_block",()-> new Block(BlockBehaviour.Properties.of(Material.METAL).strength(5f)));
 
 
     private static <T extends Block>RegistryObject<T> registerBlock(String name, Supplier<T> block)
