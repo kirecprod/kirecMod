@@ -2,10 +2,7 @@ package fr.kirecprod.kirecmod.item;
 
 import fr.kirecprod.kirecmod.init.KirecModTab;
 import fr.kirecprod.kirecmod.kirecMod;
-import net.minecraft.ChatFormatting;
-import net.minecraft.world.item.CreativeModeTab;
-import net.minecraft.world.item.Item;
-import net.minecraft.world.item.Rarity;
+import net.minecraft.world.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fmllegacy.RegistryObject;
 import net.minecraftforge.registries.DeferredRegister;
