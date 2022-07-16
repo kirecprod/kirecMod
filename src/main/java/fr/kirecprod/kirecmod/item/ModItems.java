@@ -8,7 +8,6 @@ import net.minecraftforge.fmllegacy.RegistryObject;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 
-import java.awt.*;
 
 public class ModItems
 {
@@ -20,6 +19,9 @@ public class ModItems
 
     public static final RegistryObject<Item> ENDEMONIUM_INGOT = ITEMS.register("endemonium_ingot", () -> new Item(new Item.Properties().tab(KirecModTab.KIRECMOD_TAB).fireResistant().rarity(Rarity.RARE)));
     public static final RegistryObject<Item> ENDEMONIUM_NUGGET = ITEMS.register("endemonium_nugget", () -> new Item(new Item.Properties().tab(KirecModTab.KIRECMOD_TAB).fireResistant().rarity(Rarity.RARE)));
+
+    public static final RegistryObject<Item> YEET_SWORD = ITEMS.register("yeet_sword", () -> new YeetSword(Tiers.NETHERITE, 0, 4f, new Item.Properties().tab(KirecModTab.KIRECMOD_TAB).durability(-1)));
+    // public static final RegistryObject<SwordItem> YEET_SWORD = ITEMS.register("yeet_sword", () -> new SwordItem(null, 0, 1, new Item.Properties().tab(KirecModTab.KIRECMOD_TAB).durability(-1)));
 
     public static void register(IEventBus eventBus)
     { ITEMS.register(eventBus); }
