@@ -2,6 +2,8 @@
   "replace": "false",
   "values": [
     "kirecmod:titanium_block",
-    "kirecmod:endemonium_block"
+    "kirecmod:endemonium_block",
+    "kirecmod:titanium_ore",
+    "kirecmod:endemonium_ore"
   ]
 }
