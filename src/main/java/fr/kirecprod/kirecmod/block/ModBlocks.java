@@ -25,8 +25,8 @@ public class ModBlocks
     public static final RegistryObject<Block> ENDEMONIUM_BLOCK = registerBlock("endemonium_block",()-> new Block(BlockBehaviour.Properties.of(Material.METAL).requiresCorrectToolForDrops().strength(5.0F, 6.0F).sound(SoundType.METAL)));
 
     //ORES
-    public static final RegistryObject<Block> TITANIUM_ORE = registerBlock("titanium_ore", () -> new Block(BlockBehaviour.Properties.of(Material.STONE).requiresCorrectToolForDrops().strength(4f, 5f).sound(SoundType.STONE)));
-    public static final RegistryObject<Block> ENDEMONIUM_ORE = registerBlock("endemonium_ore", () -> new Block(BlockBehaviour.Properties.of(Material.STONE).requiresCorrectToolForDrops().strength(4f, 5f).sound(SoundType.STONE)));
+    public static final RegistryObject<Block> TITANIUM_ORE = registerBlock("titanium_ore", () -> new Block(BlockBehaviour.Properties.of(Material.STONE).requiresCorrectToolForDrops().strength(5f, 5f).sound(SoundType.STONE)));
+    public static final RegistryObject<Block> ENDEMONIUM_ORE = registerBlock("endemonium_ore", () -> new Block(BlockBehaviour.Properties.of(Material.STONE).requiresCorrectToolForDrops().strength(5f, 5f).sound(SoundType.STONE)));
 
     private static <T extends Block>RegistryObject<T> registerBlock(String name, Supplier<T> block)
     {
