@@ -1,6 +1,6 @@
 {
   "variants": {
-    "": {
+    "" : {
       "model": "kirecmod:block/titanium_block"
     }
   }
